@@ -5,7 +5,11 @@ export default defineNuxtConfig({
         enabled: true,
     },
 
-    modules: ['@nuxtjs/eslint-module', '@nuxtjs/stylelint-module'],
+    modules: [
+        '@nuxtjs/eslint-module',
+        '@nuxtjs/stylelint-module',
+        'nuxt-icons',
+    ],
 
     eslint: {
         lintOnStart: false,

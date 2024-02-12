@@ -1,11 +1,45 @@
 <template>
-    <header :class="$style.header"></header>
+    <header :class="$style.header">
+        <div :class="$style.wrapper">
+            <nuxt-icon name="logo" :class="$style.logo" />
+        </div>
+    </header>
 </template>
 
 <script setup lang="ts"></script>
 
+<script>
+export default {
+    name: 'TheHeader',
+};
+</script>
+
 <style module lang="scss">
 .header {
-    //
+    position: relative;
+    width: 100%;
+    height: 12rem;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    width: 144rem;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: auto;
+
+    svg {
+        position: relative;
+        width: 8.4rem;
+        height: 2.5rem;
+        margin-bottom: 0;
+    }
 }
 </style>

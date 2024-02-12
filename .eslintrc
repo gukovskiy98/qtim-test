@@ -12,10 +12,7 @@
         "eslint:recommended",
         "@nuxt/eslint-config",
         "plugin:vue/vue3-recommended",
-        "plugin:prettier/recommended"
-    ],
-    "plugins": [
-        "prettier"
+    
     ],
     "globals": {
         "_": false
