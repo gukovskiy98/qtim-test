@@ -1,4 +1,3 @@
 node_modules/*
 .nuxt/*
-assets/scss/shared/*
 dist/*

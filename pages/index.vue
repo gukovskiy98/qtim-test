@@ -8,6 +8,7 @@
 
 <style module lang="scss">
     .MainPage {
+        margin-left: .2rem;
         color: #fff;
     }
 </style>
