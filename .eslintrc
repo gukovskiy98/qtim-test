@@ -12,7 +12,16 @@
         "eslint:recommended",
         "@nuxt/eslint-config",
         "plugin:vue/vue3-recommended",
-    
+    ],
+    "overrides": [
+        {
+            "files": [
+                "*.vue"
+            ],
+            "rules": {
+                "indent": "off"
+            }
+        }
     ],
     "globals": {
         "_": false
@@ -404,7 +413,7 @@
             "error",
             4,
             {
-                "baseIndent": 0,
+                "baseIndent": 1,
                 "switchCase": 1,
                 "ignores": []
             }
@@ -412,6 +421,13 @@
         "vue/component-definition-name-casing": [
             "error",
             "PascalCase"
+        ],
+        "vue/component-name-in-template-casing": [
+            "error",
+            "PascalCase",
+            {
+                "registeredComponentsOnly": false
+            }
         ],
         "vue/no-v-html": "off",
         "vue/singleline-html-element-content-newline": "off",

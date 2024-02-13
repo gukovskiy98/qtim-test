@@ -11,20 +11,20 @@
 <script setup lang="ts"></script>
 
 <style module lang="scss">
-.errorPage {
-    display: flex;
-    height: 100dvh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    .errorPage {
+        display: flex;
+        height: 100dvh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.title {
-    margin-bottom: 2rem;
-    font-size: 4rem;
-}
+    .title {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
 
-.description {
-    //
-}
+    .description {
+        //
+    }
 </style>

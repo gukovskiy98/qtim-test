@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/eslint-module',
         '@nuxtjs/stylelint-module',
+        '@pinia/nuxt',
         'nuxt-icons',
     ],
 

@@ -5,7 +5,7 @@
 <script setup lang="ts"></script>
 
 <style module lang="scss">
-.footer {
-    //
-}
+    .footer {
+        //
+    }
 </style>
