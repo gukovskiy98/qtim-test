@@ -3,7 +3,7 @@
         <h1 :class="$style.title">Error</h1>
         <div :class="$style.description">
             <span>Redirect to&nbsp;</span>
-            <nuxt-link to="/">main page</nuxt-link>
+            <NuxtLink to="/">main page</NuxtLink>
         </div>
     </main>
 </template>

@@ -8,18 +8,15 @@
 
 <script lang="ts">
     export default defineComponent({
+        name: 'TheHeader',
+        
+    
         setup() {
             //
 
             return {};
         },
     });
-</script>
-
-<script>
-    export default {
-        name: 'TheHeader',
-    };
 </script>
 
 <style module lang="scss">

@@ -1,4 +1,4 @@
-import stylelintFormatter from 'stylelint-formatter-pretty';
+import stylelintFormatterPretty from 'stylelint-formatter-pretty';
 
 export default defineNuxtConfig({
     devtools: {
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
     stylelint: {
         lintOnStart: false,
-        formatter: stylelintFormatter,
+        formatter: stylelintFormatterPretty,
     },
 
     css: ['~/assets/scss/bundle.scss'],

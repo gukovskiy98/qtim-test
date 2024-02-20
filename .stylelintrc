@@ -1,15 +1,7 @@
 {
-    "customSyntax": "postcss-scss",
-    "overrides": [
-        {
-            "files": [
-                "**/*.vue"
-            ],
-            "customSyntax": "postcss-html"
-        }
-    ],
     "extends": [
         "stylelint-config-standard-scss",
+        "stylelint-config-standard-vue/scss",
         "stylelint-config-idiomatic-order"
     ],
     "plugins": [
@@ -24,7 +16,7 @@
                 "baseIndentLevel": 1
             }
         ],
-
+        "@stylistic/declaration-colon-newline-after": "always-multi-line",
         "color-hex-length": "short",
         "selector-class-pattern": null,
         "scss/comment-no-empty": null,
