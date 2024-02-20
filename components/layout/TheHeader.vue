@@ -7,16 +7,16 @@
 </template>
 
 <script lang="ts">
-    export default defineComponent({
-        name: 'TheHeader',
+export default defineComponent({
+    name: 'TheHeader',
         
     
-        setup() {
-            //
+    setup() {
+        //
 
-            return {};
-        },
-    });
+        return {};
+    },
+});
 </script>
 
 <style module lang="scss">
