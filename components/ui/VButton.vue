@@ -164,7 +164,6 @@ const onMouseLeave = ($event: MouseEvent) => {
     .label {
         display: inline-flex;
         align-items: center;
-        text-transform: uppercase;
         transition: color $default-transition;
         white-space: nowrap;
     }

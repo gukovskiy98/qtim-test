@@ -8,7 +8,7 @@ console.log(this);
 
 <style module lang="scss">
     .MainPage {
-        margin-left: .2rem;
-        color: $black;
+        height: calc(100vh - $header-h);
+        background-color: $white;
     }
 </style>

@@ -1,7 +1,9 @@
 <template>
-    <div class="page-wrapper">
+    <div :class="$style.pageWrapper">
         <TheHeader />
-        <slot />
+        <div :class="$style.contentWrapper">
+            <slot />
+        </div>
         <TheFooter />
     </div>
 </template>
@@ -11,8 +13,12 @@ import TheHeader from '~/components/layout/TheHeader.vue';
 import TheFooter from '~/components/layout/TheFooter.vue';
 </script>
 
-<style lang="scss">
-    .page-wrapper {
+<style module lang="scss">
+    .pageWrapper {
         min-height: 100dvh;
+    }
+
+    .contentWrapper {
+        padding-top: $header-h;
     }
 </style>
