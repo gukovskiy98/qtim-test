@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia';
 
-export const menuList = defineStore('menu', {
+export const contacts = defineStore('contacts', {
     state: () => ({
-        menu: [
+        contacts: [
             {
                 link: '/works',
                 label: 'Works',

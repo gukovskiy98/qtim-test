@@ -7,3 +7,11 @@
         src: url("~/assets/fonts/" + $name + ".woff2") format("woff2");
     }
 }
+
+@mixin hover {
+    @media (hover), (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        &:hover {
+            @content;
+        }
+    }
+}
